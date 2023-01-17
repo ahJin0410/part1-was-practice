@@ -22,8 +22,6 @@ public class Calculator {
         // 첫 번째 리팩토링
 //        return ArithmeticOperator.calculator(operand1, operator, operand2);
 
-
-
         // 두 번째 리팩토링
         return arithmeticOperators.stream()
                 .filter(arithmeticOperator -> arithmeticOperator.supports(operator))

@@ -47,6 +47,5 @@ public class ClientRequestHandler implements Runnable{
             logger.error(e.getMessage());
         }
 
-
     }
 }
